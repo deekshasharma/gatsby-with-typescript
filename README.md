@@ -9,7 +9,7 @@
 </h1>
 
 Start your favorite project with this boilerplate code. This starter ships with the main Gatsby and TypeScript configuration files you might need to get up and running blazing fast.
-## 🚀 Quick start
+## 👉 Quick start
 
 1.  **Install the Gatsby CLI.**
     ```shell
@@ -37,7 +37,7 @@ Start your favorite project with this boilerplate code. This starter ships with 
 
     Open the `gatsby-with-typescript` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
+## 🕶️ What's inside?
 
 A quick look at the top-level files and directories you'll see in this project.
 
@@ -79,11 +79,7 @@ A quick look at the top-level files and directories you'll see in this project.
 
 12. **`README.md`**: A text file containing useful reference information about your project.
 
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-## 💫 Deploy
+## 👍 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
 
