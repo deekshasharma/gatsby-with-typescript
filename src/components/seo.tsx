@@ -3,12 +3,11 @@ import {useStaticQuery, graphql} from "gatsby";
 import {Helmet} from "react-helmet";
 
 type seoProps = {
-    description: string,
-    lang: string,
+    description?: string,
     title: string,
 }
 
-export const SEO = ({description, lang, title}: seoProps, {meta = []}) => {
+export const SEO = ({description, title}: seoProps, {lang = "en", meta = []}) => {
     const {site} = useStaticQuery(
         graphql`
             query{
