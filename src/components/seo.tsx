@@ -5,11 +5,10 @@ import {Helmet} from "react-helmet";
 type seoProps = {
     description: string,
     lang: string,
-    meta: Array<any>,
-    title: string
+    title: string,
 }
 
-export const SEO = ({description, lang, meta, title}: seoProps) => {
+export const SEO = ({description, lang, title}: seoProps, {meta = []}) => {
     const {site} = useStaticQuery(
         graphql`
             query{
