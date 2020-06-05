@@ -8,22 +8,20 @@
   Gatsby TypeScript starter project
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Start your favorite project with this boilerplate code. This starter ships with the main Gatsby and TypeScript configuration files you might need to get up and running blazing fast.
 ## 🚀 Quick start
 
 1.  **Install the Gatsby CLI.**
     ```shell
     npm install -g gatsby-cli
     ```
-    Fork this repo from your GitHub
-
 
 1.  **Get this project running on your machine.**
-    Fork this repo from your GitHub and then clone the repo from your GitHub account using this command
+    Fork this repo from your GitHub and then clone it from your GitHub account.
     ```shell script
     git clone git@github.com:<YOUR GITHUB USERNAME>/gatsby-with-typescript.git
     ```
-    Navigate into your new site’s directory and start it up.
+    Navigate into your project directory and start it up.
 
     ```shell
     cd gatsby-with-typescript/
