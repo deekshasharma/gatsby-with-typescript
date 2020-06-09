@@ -1,7 +1,6 @@
 import React from "react"
-import {useStaticQuery, graphql} from "gatsby"
-import Img from "gatsby-image"
-import {PageProps} from "gatsby";
+import {useStaticQuery, graphql, PageProps} from "gatsby"
+import GatsbyImage from "gatsby-image"
 
 /*
  * This component is built using `gatsby-image` to automatically serve optimized
@@ -13,7 +12,7 @@ import {PageProps} from "gatsby";
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
-const Image = () => {
+const Image: React.FC<PageProps<GatsbyImage>> = () => {
     const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "jon-tyson-unsplash.jpg" }) {
@@ -26,7 +25,7 @@ const Image = () => {
     }
   `)
 
-    return <Img fluid={data.placeholderImage.childImageSharp.fluid}/>
+    return <GatsbyImage fluid={data.placeholderImage.childImageSharp.fluid}/>
 }
 
 export default Image

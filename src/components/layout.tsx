@@ -5,9 +5,9 @@ import "./layout.css"
 
 
 type LayoutProps = {
-    children: any
+    children: any;
 }
-export const Layout = ({children}: LayoutProps) => {
+export const Layout: React.FC<LayoutProps> = ({children}: LayoutProps) => {
     const data = useStaticQuery(graphql`
         query SiteTitleQuery{
             site{
