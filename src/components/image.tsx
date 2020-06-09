@@ -12,7 +12,7 @@ import GatsbyImage from "gatsby-image"
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
  */
-const Image: React.FC<PageProps<GatsbyImage>> = () => {
+const Image: React.FC = () => {
     const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "jon-tyson-unsplash.jpg" }) {
@@ -24,7 +24,6 @@ const Image: React.FC<PageProps<GatsbyImage>> = () => {
       }
     }
   `)
-
     return <GatsbyImage fluid={data.placeholderImage.childImageSharp.fluid}/>
 }
 
