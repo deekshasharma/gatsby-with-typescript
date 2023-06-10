@@ -4,7 +4,7 @@
   "description": "A simple starter to get up and running Gatsby and TypeScript",
   "version": "0.1.0",
   "dependencies": {
-    "gatsby": "^2.22.15",
+    "gatsby": "^4.25.7",
     "gatsby-image": "^2.4.5",
     "gatsby-plugin-manifest": "^2.4.9",
     "gatsby-plugin-offline": "^3.2.7",
